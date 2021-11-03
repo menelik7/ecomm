@@ -1,30 +1,18 @@
 const express = require("express");
 const bodyParser = require("body-parser");
+const cookieSession = require("cookie-session");
+const usersRepo = require("./repositories/users");
 
 const app = express();
 
 // Parse incoming POST request
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
-
-app.get("/", (req, res) => {
-	res.send(`
-		<div>
-			<form method="POST">
-				<input name="email" placeholder="email" />
-				<input name="password" placeholder="password" />
-				<input name="passwordConfirmation" placeholder="password confirmation" />
-				<button>Sign Up</button>
-			</form>
-		</div>
-	`);
-});
-
-app.post("/", (req, res) => {
-	console.log(req.body);
-	const { email } = req.body;
-	res.send(`Account created for "${email}"`);
-});
+app.use(
+	cookieSession({
+		keys: ["nj3n2jniduhsuic897789hcs"],
+	})
+);
 
 const PORT = process.env.PORT || 3000;
 
