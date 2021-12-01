@@ -1,7 +1,7 @@
 const express = require("express");
 const bodyParser = require("body-parser");
 const cookieSession = require("cookie-session");
-const usersRepo = require("./repositories/users");
+const authRouter = require("./routes/admin/auth");
 
 const app = express();
 
@@ -13,6 +13,8 @@ app.use(
 		keys: ["nj3n2jniduhsuic897789hcs"],
 	})
 );
+
+app.use(authRouter);
 
 const PORT = process.env.PORT || 3000;
 
