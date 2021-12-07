@@ -1,22 +1,12 @@
 [
-	{
-		"email": "menelikworku@yahoo.com",
-		"password": "60604ca598878ae47a2e66589792117b35350be0bf9da94cd0b7ab4109dd6c3c48d1eeee470b437b53d330a5ec7a813479f8c5ef934e0a1d864ce18487724d32.f10a0343266cbc57",
-		"id": "ea06700c"
-	},
-	{
-		"email": "menelik578@aol.com",
-		"password": "361ed1b989821ad951261df0c4513d1d9330ef01e0c5d03bd3c3fc1381ee46eb93bb88841ea09a77c74d63670f1ad365d2434aeb901aeeac6df28b21d1498fbb.a0b872435b18b710",
-		"id": "e9bc5f32"
-	},
-	{
-		"email": "menelikworku@gmail.com",
-		"password": "9c4dab91b356629df7ab9251cd3170dc5d500ac39f0e41daaa3a90adda57abaddf4747db8998f9dd0d3a26df100e6f2ba45ee7af371b57991a08f1f944e96990.dd715b3c2142cf05",
-		"id": "0ab4b4b8"
-	},
-	{
-		"email": "makonnen.seble@gmail.com",
-		"password": "b90d1d76fffe6cef44fa494ae3f9732c88f0a37e89e401050a093e4feda72c6527a952ab28dff8e216c3f436ea35dbf4f94420d12550ca5fedb25c4f45d12534.c77d5ca65760c4fa",
-		"id": "cf72106d"
-	}
+  {
+    "email": "menelikworku@gmail.com",
+    "password": "03ede18024d3138cc21dd15133e177d087e65a7342e963f5b36777d5eaf952fa1fecbb2ba15ca8521d225140826680496c0dcbd127aa1f261b0fec05aeb2881c.eb0d6e0c876dcb55",
+    "id": "ab4775c2"
+  },
+  {
+    "email": "menelikworku@yahoo.com",
+    "password": "5b56aff7b69bc0d3e33a1056949c21788279381cfa3c16028e574d6d48e29615159883c86b284e72b9b4861fe9c775c476eaa9d20c9170f4225373148f00ca4a.53062218b82a1ab9",
+    "id": "1727bc9f"
+  }
 ]
