@@ -7,6 +7,14 @@ body {
 }
 
 .product-card figure {
+  min-height: 336px;
+}
+
+.product-card .card-content h3 {
+  min-height: 75px;
+}
+
+.product-card figure {
   text-align: center;
   padding: 5px;
 }
